@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "great-fire-back"
+version = "0.1.0"
+description = ""
+authors = ["Onlyacat233"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi-blog = "^0.5.0"
+uvicorn-httparse = "^0.1.0"
+sqlalchemy = "^2.0.28"
+python-dotenv = "^1.0.1"
+pydantic = "^2.6.4"
+
+
+[tool.poetry.group.dev.dependencies]
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
